@@ -19,7 +19,7 @@ class School
   
   def sort 
     sorted_roster = {}
-    @roster.each { |g, students| sorted_roster[g].sort = students }
+    @roster.each { |g, students| sorted_roster[g] = students.sort }
     # binding.pry
     sorted_roster
     
