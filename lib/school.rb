@@ -18,7 +18,7 @@ class School
   end
   
   def sort 
-    @roster.map { |g, students| binding.pry}
+    @roster.map { |g, students| roster[g].sort }
     
     
   end 
