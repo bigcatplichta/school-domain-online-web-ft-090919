@@ -18,8 +18,8 @@ class School
   end
   
   def sort 
-    @roster.each do |grade|
-      grade.collect {|grade, students| students }
+    @roster.each do |g, students|
+      
     end
     binding.pry
   end
