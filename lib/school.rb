@@ -18,8 +18,8 @@ class School
   end
   
   def sort 
-    @roster.each { |g, students| roster[g].sort }
-    
+    sorted_roster = @roster.each { |g, students| roster[g].sort }
+    sorted_roster
     
   end 
 end 
